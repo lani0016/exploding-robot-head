@@ -43,19 +43,17 @@ body {
   z-index: 2;
 }
 
-.robot-head-right,
-.robot-head-left {
+.robot-head-right {
   width: 125px;
   position: absolute;
-}
-
-.robot-head-right {
   left: 9.9em;
   top: 1.1em;
   z-index: 3;
 }
 
 .robot-head-left {
+  width: 125px;
+  position: absolute;
   left: 2.1em;
   top: 1.1em;
   z-index: 3;
