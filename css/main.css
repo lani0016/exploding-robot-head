@@ -16,6 +16,9 @@ body {
 .banner {
   background-color: #2b3851;
   position: relative;
+
+  /* this height seems perfect */
+  min-height: 15em;
 }
 
 .robot {
@@ -30,16 +33,17 @@ body {
   width: 320px;
   position: absolute;
   left: 50%;
-  top: 3.4em;
+  top: 3.5em;
   transform: translateX(-50%);
   z-index: 1;
+
 }
 
 .robot-brain {
   width: 46px;
   position: absolute;
   left: 10em;
-  top: 4.9em;
+  top: 5em;
   z-index: 2;
 }
 
@@ -47,7 +51,7 @@ body {
   width: 125px;
   position: absolute;
   left: 9.9em;
-  top: 1em;
+  top: 1.1em;
   z-index: 3;
 }
 
@@ -55,7 +59,7 @@ body {
   width: 125px;
   position: absolute;
   left: 2.1em;
-  top: 1em;
+  top: 1.1em;
   z-index: 3;
 }
 
